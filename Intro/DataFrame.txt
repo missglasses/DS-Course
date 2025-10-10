@@ -1,0 +1,14 @@
+DataFrame: A 2D data structure of rows and columns.
+Series: A 1D data structure.
+read_csv( ): A function to load CSV files as dataframes.
+and more... There are many more features of the pandas library.
+
+Assign a color column.
+Assign a radius column.
+Show the result.
+
+df = pd.DataFrame()
+df['color'] = ['blue','red','yellow','green']
+df['radius'] = [2,4,3,5]
+df #show result
+
